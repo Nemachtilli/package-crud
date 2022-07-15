@@ -1,0 +1,21 @@
+{
+    "name": "nemachtilli/crud",
+    "authors": [{
+        "name": "Nemachtilli",
+        "email": "gt.nemachtilli.composer@gmail.com"
+    }],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nemachtilli\\Crud\\CrudServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Nemachtilli\\Crud\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
